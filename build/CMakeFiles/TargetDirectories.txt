@@ -1,0 +1,3 @@
+/Users/qiaoting/GitHub/Play_With_Kitti/build/CMakeFiles/rebuild_cache.dir
+/Users/qiaoting/GitHub/Play_With_Kitti/build/CMakeFiles/edit_cache.dir
+/Users/qiaoting/GitHub/Play_With_Kitti/build/CMakeFiles/Play_With_Kitti.dir
