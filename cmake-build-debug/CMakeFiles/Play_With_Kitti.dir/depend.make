@@ -35,6 +35,23 @@ CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o: /usr/local/include/opencv2/v
 CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o: /usr/local/include/opencv2/video/tracking.hpp
 CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o: /usr/local/include/opencv2/video/video.hpp
 
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: ../Feature_extraction.cpp
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: ../Feature_extraction.h
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/core/core.hpp
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/core/mat.hpp
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/core/operations.hpp
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/core/types_c.h
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/core/version.hpp
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/features2d/features2d.hpp
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/flann/config.h
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/flann/defines.h
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/flann/miniflann.hpp
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: /usr/local/include/opencv2/nonfree/features2d.hpp
+
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o: ../exif.h
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o: ../feature_matching.cpp
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o: ../feature_matching.h
+
 CMakeFiles/Play_With_Kitti.dir/main.cpp.o: ../Disparity_Map.hpp
 CMakeFiles/Play_With_Kitti.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Play_With_Kitti.dir/main.cpp.o: ../quasidensestereo2.hpp

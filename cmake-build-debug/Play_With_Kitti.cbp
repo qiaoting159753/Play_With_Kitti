@@ -90,6 +90,18 @@
 		<Unit filename="/Users/qiaoting/GitHub/Play_With_Kitti/Disparity_Map.hpp">
 			<Option target="Play_With_Kitti"/>
 		</Unit>
+		<Unit filename="/Users/qiaoting/GitHub/Play_With_Kitti/Feature_extraction.cpp">
+			<Option target="Play_With_Kitti"/>
+		</Unit>
+		<Unit filename="/Users/qiaoting/GitHub/Play_With_Kitti/Feature_extraction.h">
+			<Option target="Play_With_Kitti"/>
+		</Unit>
+		<Unit filename="/Users/qiaoting/GitHub/Play_With_Kitti/feature_matching.cpp">
+			<Option target="Play_With_Kitti"/>
+		</Unit>
+		<Unit filename="/Users/qiaoting/GitHub/Play_With_Kitti/feature_matching.h">
+			<Option target="Play_With_Kitti"/>
+		</Unit>
 		<Unit filename="/Users/qiaoting/GitHub/Play_With_Kitti/main.cpp">
 			<Option target="Play_With_Kitti"/>
 		</Unit>

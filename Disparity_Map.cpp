@@ -36,11 +36,8 @@ Mat Disparity_Map::get_disparity()
     
     disp = left.clone();
     features = tempQuasi.getDisparityImage(&disp);
-    namedWindow("Hello");
 
     Mat channels[3];
     split(disp, channels);
-    imshow("Hello",channels[0]);
-    cvWaitKey(100000);
     return disp;
 }

@@ -150,6 +150,60 @@ Disparity_Map.cpp.s:
 	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.s
 .PHONY : Disparity_Map.cpp.s
 
+Feature_extraction.o: Feature_extraction.cpp.o
+
+.PHONY : Feature_extraction.o
+
+# target to build an object file
+Feature_extraction.cpp.o:
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o
+.PHONY : Feature_extraction.cpp.o
+
+Feature_extraction.i: Feature_extraction.cpp.i
+
+.PHONY : Feature_extraction.i
+
+# target to preprocess a source file
+Feature_extraction.cpp.i:
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.i
+.PHONY : Feature_extraction.cpp.i
+
+Feature_extraction.s: Feature_extraction.cpp.s
+
+.PHONY : Feature_extraction.s
+
+# target to generate assembly for a file
+Feature_extraction.cpp.s:
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.s
+.PHONY : Feature_extraction.cpp.s
+
+feature_matching.o: feature_matching.cpp.o
+
+.PHONY : feature_matching.o
+
+# target to build an object file
+feature_matching.cpp.o:
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o
+.PHONY : feature_matching.cpp.o
+
+feature_matching.i: feature_matching.cpp.i
+
+.PHONY : feature_matching.i
+
+# target to preprocess a source file
+feature_matching.cpp.i:
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.i
+.PHONY : feature_matching.cpp.i
+
+feature_matching.s: feature_matching.cpp.s
+
+.PHONY : feature_matching.s
+
+# target to generate assembly for a file
+feature_matching.cpp.s:
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.s
+.PHONY : feature_matching.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -216,6 +270,12 @@ help:
 	@echo "... Disparity_Map.o"
 	@echo "... Disparity_Map.i"
 	@echo "... Disparity_Map.s"
+	@echo "... Feature_extraction.o"
+	@echo "... Feature_extraction.i"
+	@echo "... Feature_extraction.s"
+	@echo "... feature_matching.o"
+	@echo "... feature_matching.i"
+	@echo "... feature_matching.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

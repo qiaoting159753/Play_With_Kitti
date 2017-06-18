@@ -3,7 +3,6 @@
 #include <iostream>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include <vector>
 
 using namespace std;
 using namespace cv;
@@ -52,77 +51,12 @@ int main(){
         first_pair.push_back(right_image);
 
         /*Calculate First Disparity*/
-        Disparity_Map first_disp_map = * new Disparity_Map(first_pair);
-        cv::Mat first_result = first_disp_map.get_disparity();
-        std::pair<vector<cv::Point>,vector<cv::Point>> first_features = first_disp_map.features;
+        //Disparity_Map first_disp_map = * new Disparity_Map(first_pair);
+        //cv::Mat first_result = first_disp_map.get_disparity();
+        //std::pair<vector<cv::Point>,vector<cv::Point>> first_features = first_disp_map.features;
+
     }
 
-//    /*Calculate First Disparity*/
-//    Disparity_Map first_disp_map = * new Disparity_Map(first_pair);
-//    cv::Mat first_result = first_disp_map.get_disparity();
-//    std::pair<vector<cv::Point>,vector<cv::Point>> first_features = first_disp_map.features;
-//
-//    namedWindow("Disparity");
-//    imshow( "Disparity", first_result );
-//    cvWaitKey(100000);
-//
-//    /*Calculate Second Disparity*/
-//    vector<Mat> second_pair = v2f.get_frame_pair(5);
-//    Disparity_Map second_disp_map = * new Disparity_Map(second_pair);
-//    cv::Mat second_result = second_disp_map.get_disparity();
-//    std::pair<vector<cv::Point>,vector<cv::Point>> second_features = second_disp_map.features;
-//
-//    /*Feature Matching*/
-//    //Build keypoint
-//    SiftFeatureDetector detector;
-//    vector<cv::KeyPoint>prev_keypoints,curr_keypoints;
-//    detector.detect(first_disp_map.lrectified,prev_keypoints);
-//    detector.detect(second_disp_map.lrectified,curr_keypoints);
-//
-//    Mat temp;
-//
-//    //Build Descriptor
-//    Mat descriptors_1, descriptors_2;
-//    SiftDescriptorExtractor extractor;
-//    extractor.compute(first_disp_map.lrectified, prev_keypoints, descriptors_1);
-//    extractor.compute(second_disp_map.lrectified, curr_keypoints, descriptors_2);
-//
-//    //Matcher
-//    FlannBasedMatcher matcher;
-//    std::vector< DMatch > matches;
-//    matcher.match( descriptors_1, descriptors_2, matches);
-//
-//    double max_dist = 0; double min_dist = 100;
-//
-//    //-- Quick calculation of max and min distances between keypoints
-//    for( int i = 0; i < descriptors_1.rows; i++ )
-//    {
-//        double dist = matches[i].distance;
-//        if( dist < min_dist ) min_dist = dist;
-//        if( dist > max_dist ) max_dist = dist;
-//    }
-//
-//    printf("-- Max dist : %f \n", max_dist );
-//    printf("-- Min dist : %f \n", min_dist );
-//
-//    //-- Draw only "good" matches (i.e. whose distance is less than 3*min_dist )
-//    std::vector< DMatch > good_matches;
-//
-//    for( int i = 0; i < descriptors_2.rows; i++ )
-//    {
-//        if( matches[i].distance < 5*min_dist )
-//        {
-//            good_matches.push_back( matches[i]);
-//        }
-//    }
-//
-//
-//    Mat img_matches;
-//    drawMatches(first_disp_map.lrectified, prev_keypoints, second_disp_map.lrectified, curr_keypoints,
-//                good_matches, img_matches, Scalar::all(-1), Scalar::all(-1),
-//                vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS );
-//    printf("Good Match:%lu\b\n",good_matches.size());
-//
 //    //-- Localize the object
 //    std::vector<Point2f> obj;
 //    std::vector<Point2f> scene;

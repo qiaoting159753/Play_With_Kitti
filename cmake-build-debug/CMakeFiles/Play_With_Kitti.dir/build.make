@@ -57,33 +57,9 @@ include CMakeFiles/Play_With_Kitti.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Play_With_Kitti.dir/flags.make
 
-CMakeFiles/Play_With_Kitti.dir/main.cpp.o: CMakeFiles/Play_With_Kitti.dir/flags.make
-CMakeFiles/Play_With_Kitti.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Play_With_Kitti.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Play_With_Kitti.dir/main.cpp.o -c /Users/qiaoting/GitHub/Play_With_Kitti/main.cpp
-
-CMakeFiles/Play_With_Kitti.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Play_With_Kitti.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Play_With_Kitti/main.cpp > CMakeFiles/Play_With_Kitti.dir/main.cpp.i
-
-CMakeFiles/Play_With_Kitti.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Play_With_Kitti.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Play_With_Kitti/main.cpp -o CMakeFiles/Play_With_Kitti.dir/main.cpp.s
-
-CMakeFiles/Play_With_Kitti.dir/main.cpp.o.requires:
-
-.PHONY : CMakeFiles/Play_With_Kitti.dir/main.cpp.o.requires
-
-CMakeFiles/Play_With_Kitti.dir/main.cpp.o.provides: CMakeFiles/Play_With_Kitti.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Play_With_Kitti.dir/main.cpp.o.provides
-
-CMakeFiles/Play_With_Kitti.dir/main.cpp.o.provides.build: CMakeFiles/Play_With_Kitti.dir/main.cpp.o
-
-
 CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o: CMakeFiles/Play_With_Kitti.dir/flags.make
 CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o: ../Disparity_Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o -c /Users/qiaoting/GitHub/Play_With_Kitti/Disparity_Map.cpp
 
 CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.i: cmake_force
@@ -105,9 +81,81 @@ CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o.provides: CMakeFiles/Play_Wit
 CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o.provides.build: CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o
 
 
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: CMakeFiles/Play_With_Kitti.dir/flags.make
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o: ../Feature_extraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o -c /Users/qiaoting/GitHub/Play_With_Kitti/Feature_extraction.cpp
+
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Play_With_Kitti/Feature_extraction.cpp > CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.i
+
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Play_With_Kitti/Feature_extraction.cpp -o CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.s
+
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o.requires:
+
+.PHONY : CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o.requires
+
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o.provides: CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o.provides.build
+.PHONY : CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o.provides
+
+CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o.provides.build: CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o
+
+
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o: CMakeFiles/Play_With_Kitti.dir/flags.make
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o: ../feature_matching.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o -c /Users/qiaoting/GitHub/Play_With_Kitti/feature_matching.cpp
+
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Play_With_Kitti/feature_matching.cpp > CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.i
+
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Play_With_Kitti/feature_matching.cpp -o CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.s
+
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o.requires:
+
+.PHONY : CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o.requires
+
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o.provides: CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o.provides.build
+.PHONY : CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o.provides
+
+CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o.provides.build: CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o
+
+
+CMakeFiles/Play_With_Kitti.dir/main.cpp.o: CMakeFiles/Play_With_Kitti.dir/flags.make
+CMakeFiles/Play_With_Kitti.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Play_With_Kitti.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Play_With_Kitti.dir/main.cpp.o -c /Users/qiaoting/GitHub/Play_With_Kitti/main.cpp
+
+CMakeFiles/Play_With_Kitti.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Play_With_Kitti.dir/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Play_With_Kitti/main.cpp > CMakeFiles/Play_With_Kitti.dir/main.cpp.i
+
+CMakeFiles/Play_With_Kitti.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Play_With_Kitti.dir/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Play_With_Kitti/main.cpp -o CMakeFiles/Play_With_Kitti.dir/main.cpp.s
+
+CMakeFiles/Play_With_Kitti.dir/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/Play_With_Kitti.dir/main.cpp.o.requires
+
+CMakeFiles/Play_With_Kitti.dir/main.cpp.o.provides: CMakeFiles/Play_With_Kitti.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Play_With_Kitti.dir/build.make CMakeFiles/Play_With_Kitti.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/Play_With_Kitti.dir/main.cpp.o.provides
+
+CMakeFiles/Play_With_Kitti.dir/main.cpp.o.provides.build: CMakeFiles/Play_With_Kitti.dir/main.cpp.o
+
+
 CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o: CMakeFiles/Play_With_Kitti.dir/flags.make
 CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o: ../quasidensestereo2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o -c /Users/qiaoting/GitHub/Play_With_Kitti/quasidensestereo2.cpp
 
 CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.i: cmake_force
@@ -131,15 +179,19 @@ CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o.provides.build: CMakeFile
 
 # Object files for target Play_With_Kitti
 Play_With_Kitti_OBJECTS = \
-"CMakeFiles/Play_With_Kitti.dir/main.cpp.o" \
 "CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o" \
+"CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o" \
+"CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o" \
+"CMakeFiles/Play_With_Kitti.dir/main.cpp.o" \
 "CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o"
 
 # External object files for target Play_With_Kitti
 Play_With_Kitti_EXTERNAL_OBJECTS =
 
-Play_With_Kitti: CMakeFiles/Play_With_Kitti.dir/main.cpp.o
 Play_With_Kitti: CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o
+Play_With_Kitti: CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o
+Play_With_Kitti: CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o
+Play_With_Kitti: CMakeFiles/Play_With_Kitti.dir/main.cpp.o
 Play_With_Kitti: CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o
 Play_With_Kitti: CMakeFiles/Play_With_Kitti.dir/build.make
 Play_With_Kitti: /usr/local/lib/libopencv_contrib.2.4.13.dylib
@@ -158,7 +210,7 @@ Play_With_Kitti: /usr/local/lib/libopencv_highgui.2.4.13.dylib
 Play_With_Kitti: /usr/local/lib/libopencv_imgproc.2.4.13.dylib
 Play_With_Kitti: /usr/local/lib/libopencv_core.2.4.13.dylib
 Play_With_Kitti: CMakeFiles/Play_With_Kitti.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Play_With_Kitti"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qiaoting/GitHub/Play_With_Kitti/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Play_With_Kitti"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Play_With_Kitti.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -166,8 +218,10 @@ CMakeFiles/Play_With_Kitti.dir/build: Play_With_Kitti
 
 .PHONY : CMakeFiles/Play_With_Kitti.dir/build
 
-CMakeFiles/Play_With_Kitti.dir/requires: CMakeFiles/Play_With_Kitti.dir/main.cpp.o.requires
 CMakeFiles/Play_With_Kitti.dir/requires: CMakeFiles/Play_With_Kitti.dir/Disparity_Map.cpp.o.requires
+CMakeFiles/Play_With_Kitti.dir/requires: CMakeFiles/Play_With_Kitti.dir/Feature_extraction.cpp.o.requires
+CMakeFiles/Play_With_Kitti.dir/requires: CMakeFiles/Play_With_Kitti.dir/feature_matching.cpp.o.requires
+CMakeFiles/Play_With_Kitti.dir/requires: CMakeFiles/Play_With_Kitti.dir/main.cpp.o.requires
 CMakeFiles/Play_With_Kitti.dir/requires: CMakeFiles/Play_With_Kitti.dir/quasidensestereo2.cpp.o.requires
 
 .PHONY : CMakeFiles/Play_With_Kitti.dir/requires
